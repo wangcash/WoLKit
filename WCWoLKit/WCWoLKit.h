@@ -15,6 +15,10 @@
 
 @property (nonatomic, assign) AsyncUdpSocket *udpSocket;
 
+/**
+ * Waking Up a Remote Device.
+ *
+ **/
 - (void)wakingUpRemoteDevice:(NSString *)mac;
 
 @end
