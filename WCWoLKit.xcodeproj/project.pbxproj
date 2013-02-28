@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1084F616DF43E500EE73A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1084F516DF43E500EE73A0 /* Foundation.framework */; };
+		BD1084FB16DF43E500EE73A0 /* WCWoLKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD1084FA16DF43E500EE73A0 /* WCWoLKit.h */; };
+		BD1084FD16DF43E500EE73A0 /* WCWoLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1084FC16DF43E500EE73A0 /* WCWoLKit.m */; };
+		BD10850516DF43E600EE73A0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD10850416DF43E600EE73A0 /* SenTestingKit.framework */; };
+		BD10850716DF43E600EE73A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD10850616DF43E600EE73A0 /* UIKit.framework */; };
+		BD10850816DF43E600EE73A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1084F516DF43E500EE73A0 /* Foundation.framework */; };
+		BD10850B16DF43E600EE73A0 /* libWCWoLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1084F216DF43E500EE73A0 /* libWCWoLKit.a */; };
+		BD10851116DF43E600EE73A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD10850F16DF43E600EE73A0 /* InfoPlist.strings */; };
+		BD10851416DF43E600EE73A0 /* WCWoLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD10851316DF43E600EE73A0 /* WCWoLKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD10850916DF43E600EE73A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1084EA16DF43E500EE73A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1084F116DF43E500EE73A0;
+			remoteInfo = WCWoLKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD1084F016DF43E500EE73A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				BD1084FB16DF43E500EE73A0 /* WCWoLKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD1084F216DF43E500EE73A0 /* libWCWoLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWCWoLKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1084F516DF43E500EE73A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD1084F916DF43E500EE73A0 /* WCWoLKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCWoLKit-Prefix.pch"; sourceTree = "<group>"; };
+		BD1084FA16DF43E500EE73A0 /* WCWoLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCWoLKit.h; sourceTree = "<group>"; };
+		BD1084FC16DF43E500EE73A0 /* WCWoLKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCWoLKit.m; sourceTree = "<group>"; };
+		BD10850316DF43E600EE73A0 /* WCWoLKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCWoLKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD10850416DF43E600EE73A0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD10850616DF43E600EE73A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD10850E16DF43E600EE73A0 /* WCWoLKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WCWoLKitTests-Info.plist"; sourceTree = "<group>"; };
+		BD10851016DF43E600EE73A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD10851216DF43E600EE73A0 /* WCWoLKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCWoLKitTests.h; sourceTree = "<group>"; };
+		BD10851316DF43E600EE73A0 /* WCWoLKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCWoLKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1084EF16DF43E500EE73A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1084F616DF43E500EE73A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1084FF16DF43E600EE73A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD10850516DF43E600EE73A0 /* SenTestingKit.framework in Frameworks */,
+				BD10850716DF43E600EE73A0 /* UIKit.framework in Frameworks */,
+				BD10850816DF43E600EE73A0 /* Foundation.framework in Frameworks */,
+				BD10850B16DF43E600EE73A0 /* libWCWoLKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1084E916DF43E500EE73A0 = {
+			isa = PBXGroup;
+			children = (
+				BD1084F716DF43E500EE73A0 /* WCWoLKit */,
+				BD10850C16DF43E600EE73A0 /* WCWoLKitTests */,
+				BD1084F416DF43E500EE73A0 /* Frameworks */,
+				BD1084F316DF43E500EE73A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1084F316DF43E500EE73A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1084F216DF43E500EE73A0 /* libWCWoLKit.a */,
+				BD10850316DF43E600EE73A0 /* WCWoLKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1084F416DF43E500EE73A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD1084F516DF43E500EE73A0 /* Foundation.framework */,
+				BD10850416DF43E600EE73A0 /* SenTestingKit.framework */,
+				BD10850616DF43E600EE73A0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1084F716DF43E500EE73A0 /* WCWoLKit */ = {
+			isa = PBXGroup;
+			children = (
+				BD1084FA16DF43E500EE73A0 /* WCWoLKit.h */,
+				BD1084FC16DF43E500EE73A0 /* WCWoLKit.m */,
+				BD1084F816DF43E500EE73A0 /* Supporting Files */,
+			);
+			path = WCWoLKit;
+			sourceTree = "<group>";
+		};
+		BD1084F816DF43E500EE73A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1084F916DF43E500EE73A0 /* WCWoLKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD10850C16DF43E600EE73A0 /* WCWoLKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD10851216DF43E600EE73A0 /* WCWoLKitTests.h */,
+				BD10851316DF43E600EE73A0 /* WCWoLKitTests.m */,
+				BD10850D16DF43E600EE73A0 /* Supporting Files */,
+			);
+			path = WCWoLKitTests;
+			sourceTree = "<group>";
+		};
+		BD10850D16DF43E600EE73A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD10850E16DF43E600EE73A0 /* WCWoLKitTests-Info.plist */,
+				BD10850F16DF43E600EE73A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1084F116DF43E500EE73A0 /* WCWoLKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD10851716DF43E600EE73A0 /* Build configuration list for PBXNativeTarget "WCWoLKit" */;
+			buildPhases = (
+				BD1084EE16DF43E500EE73A0 /* Sources */,
+				BD1084EF16DF43E500EE73A0 /* Frameworks */,
+				BD1084F016DF43E500EE73A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCWoLKit;
+			productName = WCWoLKit;
+			productReference = BD1084F216DF43E500EE73A0 /* libWCWoLKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD10850216DF43E600EE73A0 /* WCWoLKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD10851A16DF43E600EE73A0 /* Build configuration list for PBXNativeTarget "WCWoLKitTests" */;
+			buildPhases = (
+				BD1084FE16DF43E600EE73A0 /* Sources */,
+				BD1084FF16DF43E600EE73A0 /* Frameworks */,
+				BD10850016DF43E600EE73A0 /* Resources */,
+				BD10850116DF43E600EE73A0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD10850A16DF43E600EE73A0 /* PBXTargetDependency */,
+			);
+			name = WCWoLKitTests;
+			productName = WCWoLKitTests;
+			productReference = BD10850316DF43E600EE73A0 /* WCWoLKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1084EA16DF43E500EE73A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "2B Studio";
+			};
+			buildConfigurationList = BD1084ED16DF43E500EE73A0 /* Build configuration list for PBXProject "WCWoLKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD1084E916DF43E500EE73A0;
+			productRefGroup = BD1084F316DF43E500EE73A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1084F116DF43E500EE73A0 /* WCWoLKit */,
+				BD10850216DF43E600EE73A0 /* WCWoLKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD10850016DF43E600EE73A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD10851116DF43E600EE73A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD10850116DF43E600EE73A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1084EE16DF43E500EE73A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1084FD16DF43E500EE73A0 /* WCWoLKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1084FE16DF43E600EE73A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD10851416DF43E600EE73A0 /* WCWoLKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD10850A16DF43E600EE73A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1084F116DF43E500EE73A0 /* WCWoLKit */;
+			targetProxy = BD10850916DF43E600EE73A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD10850F16DF43E600EE73A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD10851016DF43E600EE73A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD10851516DF43E600EE73A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD10851616DF43E600EE73A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD10851816DF43E600EE73A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WCWoLKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCWoLKit/WCWoLKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BD10851916DF43E600EE73A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WCWoLKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCWoLKit/WCWoLKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BD10851B16DF43E600EE73A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCWoLKit/WCWoLKit-Prefix.pch";
+				INFOPLIST_FILE = "WCWoLKitTests/WCWoLKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BD10851C16DF43E600EE73A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCWoLKit/WCWoLKit-Prefix.pch";
+				INFOPLIST_FILE = "WCWoLKitTests/WCWoLKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1084ED16DF43E500EE73A0 /* Build configuration list for PBXProject "WCWoLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD10851516DF43E600EE73A0 /* Debug */,
+				BD10851616DF43E600EE73A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD10851716DF43E600EE73A0 /* Build configuration list for PBXNativeTarget "WCWoLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD10851816DF43E600EE73A0 /* Debug */,
+				BD10851916DF43E600EE73A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD10851A16DF43E600EE73A0 /* Build configuration list for PBXNativeTarget "WCWoLKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD10851B16DF43E600EE73A0 /* Debug */,
+				BD10851C16DF43E600EE73A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1084EA16DF43E500EE73A0 /* Project object */;
+}
