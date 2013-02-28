@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AsyncUdpSocket.h"
 
-@interface WCWoLKit : NSObject
+@interface WCWoLKit : NSObject{
+	AsyncUdpSocket *udpSocket;
+}
+
+@property (nonatomic, assign) AsyncUdpSocket *udpSocket;
+
+- (void)wakingUpRemoteDevice:(NSString *)mac;
 
 @end

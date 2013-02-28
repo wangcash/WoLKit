@@ -16,6 +16,8 @@
 		BD10850B16DF43E600EE73A0 /* libWCWoLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1084F216DF43E500EE73A0 /* libWCWoLKit.a */; };
 		BD10851116DF43E600EE73A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD10850F16DF43E600EE73A0 /* InfoPlist.strings */; };
 		BD10851416DF43E600EE73A0 /* WCWoLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD10851316DF43E600EE73A0 /* WCWoLKitTests.m */; };
+		BD10851F16DF4AC400EE73A0 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BD10851E16DF4AC400EE73A0 /* AsyncUdpSocket.m */; };
+		BD10852016DF4AC400EE73A0 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BD10851E16DF4AC400EE73A0 /* AsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		BD10851016DF43E600EE73A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD10851216DF43E600EE73A0 /* WCWoLKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCWoLKitTests.h; sourceTree = "<group>"; };
 		BD10851316DF43E600EE73A0 /* WCWoLKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCWoLKitTests.m; sourceTree = "<group>"; };
+		BD10851D16DF4AC400EE73A0 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		BD10851E16DF4AC400EE73A0 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		BD1084F716DF43E500EE73A0 /* WCWoLKit */ = {
 			isa = PBXGroup;
 			children = (
+				BD10852116DF4AF900EE73A0 /* cocoaasyncsocket */,
 				BD1084FA16DF43E500EE73A0 /* WCWoLKit.h */,
 				BD1084FC16DF43E500EE73A0 /* WCWoLKit.m */,
 				BD1084F816DF43E500EE73A0 /* Supporting Files */,
@@ -143,6 +148,15 @@
 				BD10850F16DF43E600EE73A0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD10852116DF4AF900EE73A0 /* cocoaasyncsocket */ = {
+			isa = PBXGroup;
+			children = (
+				BD10851D16DF4AC400EE73A0 /* AsyncUdpSocket.h */,
+				BD10851E16DF4AC400EE73A0 /* AsyncUdpSocket.m */,
+			);
+			name = cocoaasyncsocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1084FD16DF43E500EE73A0 /* WCWoLKit.m in Sources */,
+				BD10851F16DF4AC400EE73A0 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD10851416DF43E600EE73A0 /* WCWoLKitTests.m in Sources */,
+				BD10852016DF4AC400EE73A0 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
